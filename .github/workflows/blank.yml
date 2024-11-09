@@ -4,8 +4,9 @@
 		font-family:"Arial", sans-serif;
 	}
 	.embeddedServiceHelpButton .helpButton .uiButton:focus {
-		outline:1px ,solid ,#005290;
-  }
+		outline:1px solid #005290;
+}
+
 </style>
 
 <script type='text/javascript' src='https://service.force.com/embeddedservice/5.0/esw.min.js'></script>
@@ -44,17 +45,17 @@
 				buttonId:'573JW000000wDxl',
 				baseLiveAgentURL:'https://d.la12s-core1.sfdc-cehfhs.salesforceliveagent.com/chat',
 				eswLiveAgentDevName:'Queue1',
-				
+				isOfflineSupportEnabled:false
 			}
 		);
-	}
+	};
 
 	if (!window.embedded_svc) {
 		var s = document.createElement('script');
 		s.setAttribute('src', 'https://bordgaisenergyeandu--kavydev.sandbox.my.salesforce.com/embeddedservice/5.0/esw.min.js');
 		s.onload = function() {
 			initESW(null);
-		}
+		};
 		document.body.appendChild(s);
 	} else {
 		initESW('https://service.force.com');
