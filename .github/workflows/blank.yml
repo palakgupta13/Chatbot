@@ -40,11 +40,11 @@
 			'Queue1',
 			{
 				baseLiveAgentContentURL:'https://c.la12s-core1.sfdc-cehfhs.salesforceliveagent.com/content',
-				deploymentId: '572JW000004r0qn',
-				buttonId: '573JW000000wDxl',
-				baseLiveAgentURL: 'https://d.la12s-core1.sfdc-cehfhs.salesforceliveagent.com/chat',
-				eswLiveAgentDevName: 'Queue1',
-				isOfflineSupportEnabled: false
+				deploymentId:'572JW000004r0qn',
+				buttonId:'573JW000000wDxl',
+				baseLiveAgentURL:'https://d.la12s-core1.sfdc-cehfhs.salesforceliveagent.com/chat',
+				eswLiveAgentDevName:'Queue1',
+				isOfflineSupportEnabled: false;
 			}
 		);
 	};
