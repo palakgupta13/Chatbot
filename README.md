@@ -7,7 +7,7 @@
 
 			embeddedservice_bootstrap.init(
 				'00DJW000006ylwl',
-				'testDeploy',
+				'TestDeploy',
 				'https://bordgaisenergyeandu--kavydev.sandbox.my.site.com/ESWtestDeploy1731474566195',
 				{
 					scrt2URL: 'https://bordgaisenergyeandu--kavydev.sandbox.my.salesforce-scrt.com'
