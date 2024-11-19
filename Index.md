@@ -1,5 +1,5 @@
 <html>
-<body>
+	<body>
 <script type='text/javascript'>
 	function initEmbeddedMessaging() {
 		try {
@@ -7,8 +7,8 @@
 
 			embeddedservice_bootstrap.init(
 				'00DJW000006ylwl',
-				'testDeploy',
-				'https://bordgaisenergyeandu--kavydev.sandbox.my.site.com/ESWtestDeploy1731474566195',
+				'Kavy_2_0',
+				'https://bordgaisenergyeandu--kavydev.sandbox.my.site.com/ESWKavy201731491450094',
 				{
 					scrt2URL: 'https://bordgaisenergyeandu--kavydev.sandbox.my.salesforce-scrt.com'
 				}
@@ -18,6 +18,6 @@
 		}
 	};
 </script>
-<script type='text/javascript' src='https://bordgaisenergyeandu--kavydev.sandbox.my.site.com/ESWtestDeploy1731474566195/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+<script type='text/javascript' src='https://bordgaisenergyeandu--kavydev.sandbox.my.site.com/ESWKavy201731491450094/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
 </body>
 </html>
